@@ -130,3 +130,8 @@ let g:vimwiki_list = [{'path': 'C:\Users\swang\Google Drive\wiki', 'syntax': 'ma
 "nnoremap <silent> <Leader>st : Startify<CR> " use \st to show startify list
 nnoremap <c-s> : Startify<CR> " use ctrl-s to show startify list
 
+" In Nvim-qt on Windows, when we press Shift+Insert in insert mode, it will add a literal <S-Insert>, 
+" instead of placing the text on the system clipboard to the cursor position. 
+" To fix this issue, we can use the following mapping:
+
+inoremap <silent>  <S-Insert>  <C-R>+
