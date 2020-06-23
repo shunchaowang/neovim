@@ -135,9 +135,3 @@ nnoremap <c-s> : Startify<CR> " use ctrl-s to show startify list
 " To fix this issue, we can use the following mapping:
 
 inoremap <silent>  <S-Insert>  <C-R>+
-
-" enable Shift + Insert to paste from Clipboard
-inoremap <silent>  <S-Insert>  <C-R>+
-
-" enable Ctrl-C/V
-source $VIMRUNTIME/mswin.vim
