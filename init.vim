@@ -125,8 +125,8 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
 " vimwiki/vimwiki
 let g:vimwiki_list = [
-			\{'path': 'C:\Users\swang\Google Drive\wiki', 'syntax': 'markdown', 'ext': '.md'},
-			\{'path': 'D:\Source\wiki', 'syntax': 'markdown', 'ext': '.md'}
+			\{'path': '~/wiki/publicwiki/', 'syntax': 'markdown', 'ext': '.md'},
+			\{'path': '~/wiki/personalwiki/', 'syntax': 'markdown', 'ext': '.md'},
 		\]
 
 " startify setting
