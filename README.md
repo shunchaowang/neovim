@@ -30,3 +30,5 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   )
 )
 ```
+## Install Plugins
+`:PlugInstall` to install plugins on VIM.
