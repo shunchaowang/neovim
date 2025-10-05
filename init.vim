@@ -129,6 +129,10 @@ let g:vimwiki_list = [
 			\{'path': '~/wiki/personalwiki/', 'syntax': 'markdown', 'ext': '.md'},
 		\]
 
+" Remap the Vimwiki toggle checkbox shortcut
+" The 'nnoremap' command ensures the mapping is not recursive.
+nnoremap <Leader>c :call vimwiki#lst#toggle_cb(line('.'), line('.'))<CR>
+
 " startify setting
 "nnoremap <silent> <Leader>st : Startify<CR> " use \st to show startify list
 nnoremap <c-s> : Startify<CR> " use ctrl-s to show startify list
